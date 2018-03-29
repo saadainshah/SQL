@@ -51,7 +51,9 @@ INSERT ALL
 INTO temp_table VALUES(123, 'saadain', 'oddcrescent')
 SELECT 1 FROM DUAL;
 
-
+ALTER TABLE Employee
+--ADD DateOfBirth date
+MODIFY DateOfBirth year;
 --TRUNCATE TABLE Division;
 
 --DELETE FROM Division;
